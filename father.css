@@ -1,0 +1,152 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+    background: linear-gradient(to left top,#1b3562,#3f4762);
+}
+
+.wrapper{
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(184, 202, 249);
+    border-radius: 10px;
+}
+
+
+.wrapper .carousel{
+    display: grid;
+    grid-auto-flow:row;
+    grid-auto-columns: calc((100% / 3) -12px);
+    gap: 18px;
+    overflow: hidden;
+    background-color:#3f4762;
+}
+
+
+.carousel .card{
+    height: 450px;
+    list-style: none;
+    background: #719ecb;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.card .img {
+    background: #cdccee;
+    width: 138px;
+    height: 108px;
+    border-radius:50%;
+}
+
+
+.card .img img{
+    width: 140px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #131a0d;
+}
+
+.card h2{
+    font-weight: 500;
+    font-size: 1.56rem;
+    margin: 30px 0 5px;
+    
+}
+
+
+.card span{
+    color: #5e6067;
+    font-size: 1.31rem;
+}
+
+.card a{
+    font-weight: 500;
+    font-size: 1.56rem;
+    margin: 30px 0 5px;
+}
+
+@media screen and (max-width:900px)
+{
+    .wrapper .carousel{
+        grid-auto-columns: calc((100% / 3) -9px);
+
+    }
+    
+}
+
+@media screen and (max-width:900px)
+{
+    .wrapper .carousel{
+        grid-auto-columns:100%;
+        
+    }
+    
+}
+
+.img:hover{
+    transform: scale(1.3);
+    z-index:2
+}
+
+.img{
+    transition: 1s;
+}
+
+h4{
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(32, 32, 4);
+    border-radius: 20px;
+    color: aliceblue;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h2{
+    background-color: rgb(197, 154, 201);
+    border-radius: 5px;
+    color: rgb(6, 36, 62);
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h3{
+    background-color: rgb(200, 168, 254);
+    border-radius: 5px;
+    color: rgb(6, 6, 6);
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+mark{
+    border-radius: 20px;
+}

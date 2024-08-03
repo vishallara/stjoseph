@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+
+
+.design{
+    background-color: rgb(193, 199, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20%;
+    height: 230px;
+    text-align: center;
+ 
+    
+   
+
+
+}
+
+
+body{
+
+    background-color: rgb(112, 103, 235);
+}
+hr{
+    padding-bottom: 20px;
+}
+
+.des{
+    background-color: rgb(193, 199, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20%;
+    height: 600px;
+    text-align: center;
+    padding-left: 60px;
+ 
+    
+}
+
+.simon{
+
+    background-color: rgb(193, 199, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20%;
+    height: 250px;
+    text-align: center;
+    padding-left: 60px;
+ 
+}
+
+.vino{
+
+    background-color: rgb(193, 199, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20%;
+    height: 220px;
+    text-align: center;
+    padding-left: 60px;
+ 
+}
+
+.stella{
+
+    
+    background-color: rgb(193, 199, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(11, 10, 10);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20%;
+    height: 220px;
+    text-align: center;
+
+}
+
+.ste{
+
+        
+    background-color: rgb(193, 199, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20%;
+    height: 420px;
+    text-align: center;
+
+}
+
+.ram,.note15,.note16,.note18{
+
+    
+    background-color: rgb(193, 197, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20%;
+    height: 220px;
+    text-align: center;
+    padding-left: 60px;
+ 
+}
+
+.lara,.note19,.note20{
+
+       
+    background-color: rgb(193, 197, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(39, 38, 38);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+    height: 380px;
+    text-align: center;
+
+}
+
+h2{
+    background-color: bisque;
+ 
+    padding-right: 20px;
+    
+}
+
+
+.note6{
+
+       
+    background-color: rgb(193, 199, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(39, 38, 38);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+    height: 250px;
+    text-align: center;
+
+}
+
+.note7{
+
+        
+    background-color: rgb(193, 197, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(39, 38, 38);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+    height: 100px;
+    text-align: center;
+
+}
+
+.note8{
+
+    background-color: rgb(193, 197, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(39, 38, 38);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+    height: 350px;
+    text-align: center;
+
+}
+
+.note9{
+
+    
+
+    background-color: rgb(193, 200, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(39, 38, 38);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+    height: 300px;
+    text-align: center;
+
+}
+
+.note10,.note22{
+
+    
+
+    background-color: rgb(193, 199, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(39, 38, 38);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+    height: 500px;
+    text-align: center;
+}
+
+.note11{
+
+            
+    background-color: rgb(193, 197, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(39, 38, 38);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+    height: 100px;
+    text-align: center;
+
+}
+
+.note12,.note13,.note14,.note17,.note21,.note24{
+    
+            
+    background-color: rgb(193, 197, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(39, 38, 38);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+    height: 100px;
+    text-align: center;
+}
+
+.note23{
+
+             
+    background-color: rgb(193, 199, 237);
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 0px;
+    border: 5px solid rgb(39, 38, 38);
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+    height: 150px;
+    text-align: center;
+
+}
+
+
+a{
+
+  margin: 30px;
+    background-color: blueviolet;
+    color: white;
+}
+
+
+
+
+
